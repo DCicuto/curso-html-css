@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'proggy';
+    src: url('../fontes/ProggySquareConsole.fon') format('truetype');
+}
+
+/* CSS Document */
+
+:root { /* variáveis globais de cor e fonte */
+    --cor0: #1f1d29;
+    --cor1: #3CA692;
+    --cor2: #D9BF8F;
+    --cor3: #da7d0b;
+    --cor4: #401201;
+    --cor5: #cbbcff;
+    --cor6: #3d355a;
+    --cor7: #5bac9e;
+
+    --fonte-padrao: Verdana, Arial, helvetica, sans-serif;
+    --fonte-destaque: bebas neue, sans-serif;
+    --fonte-mono: proggy, monospace;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1.1em;
+    line-height: 1.8em;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor6));
+    font-family: proggy, monospace;
+    color: var(--cor3);
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: proggy, monospace;
+    font-size: 2em;
+    padding: 10px;
+    margin: 0;
+    color: var(--cor5) ;
+    text-shadow: #cbbcff 0.5px 0.5px 0px;
+}
+
+header p {
+    font-family: proggy, monospace;
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 0;
+    color: var(--cor3);
+    text-shadow: #301e0e 1px 1px 0px;
+}
+
+nav {
+    background-image: linear-gradient(to bottom, var(--cor6), var(--cor0));
+    font-family: proggy, monospace;
+    padding: 10px;
+    text-align: justify;
+}
+
+nav a {
+    color: var(--cor3);
+    text-decoration: underline;
+    text-align: justify;
+    font-weight: bold;
+
+    border-radius: 5px;
+    padding: 10px;
+    text-shadow: #241408 1px 1px 1px;
+    transition-duration: .5s;
+}
+
+nav a:hover {
+    background-color: var(--cor4);
+    color: var(--cor5);
+    text-shadow: #cbbcff 1px 1px 1px;
+}
+
+main {
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    margin-bottom: 30px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main image {
+    width: 100%;
+ }
+
+div.video {
+    background-color: var(--cor6);
+    margin: 0px -10px 30px -10px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+ }
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 95%;
+ }
+
+main image.pequena {
+    max-width: 350px;
+    display: block;
+    margin: 10px;
+}
+
+main h1 {
+    font-family: bebas neue, sans-serif;
+    font-size: 2.3em;
+    color: var(--cor1);
+    text-align: justify;
+    font-weight: normal;
+
+}
+
+main h2 {
+    font-family: proggy, monospace;
+    font-size: 1.5em;
+    color: var(--cor3);
+    text-indent: 8px;
+    background-image: linear-gradient(to right, var(--cor6), transparent);
+    padding: 5px;
+    font-weight: bold;
+}
+aside {
+    background-color: var(--cor6);
+    color: var(--cor3);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Adiciona espaçamento abaixo do aside */
+    box-shadow: 10px, 10px, 0px, rgba(0, 0, 0, 0.849);
+}
+
+aside > h3 {
+    background-color: rgb(39, 25, 51);
+    font-family: proggy, monospace;
+    font-size: 1.5em;
+    color: var(--cor5);
+    text-align: center;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+aside > ul {
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 5px;
+    margin: 10px;
+}
+
+aside > ul li:before {
+    content: "✔️";
+    margin-right: 5px;
+    display: block;
+    padding: 5px;
+}
+
+footer {
+    background-color: var(--cor0);
+    color: var(--cor3);
+    font-family: proggy, monospace;
+    padding: 5px;
+    text-align: center;
+}
+   
+footer p {
+    margin: 0px;
+}
+
+footer a {
+    color: var(--cor3);
+    text-decoration: underline;
+    font-weight: bold;
+}
+footer a:hover {
+    color: var(--cor5);
+    text-shadow: #cbbcff 0.5px 0.5px 0px;
+}

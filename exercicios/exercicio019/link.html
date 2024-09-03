@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* Simbolos mais importante em seletores personalizados
+           # = id
+           . = class
+           : = pseudo-class
+          :: = pseud-element
+           > = children
+        */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+        }
+
+        a{
+            color: rgb(253, 51, 226);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: rgb(253, 51, 226);
+        }
+
+        a:hover{
+            color: rgb(36, 7, 32);
+            background-color: rgba(253, 51, 226, 0.596);
+        }
+
+        a:active{
+            color: rgb(253, 51, 226);
+            background-color: rgba(26, 5, 23, 0.849);
+        }
+
+        a::after{  /* Pseudo classe é : pseudo elementos é :: (Então aqui significa que depois de todos os links terá um aviso que é um link ) */
+            content: "🔗";
+            text-decoration: none;
+            font-size: 0.8em;
+            color: rgba(43, 9, 38, 0.568);
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/DCicuto" target="_blank">Profile github</a></li>
+        <li><a href="https://github.com/DCicuto?tab=repositories" target="_blank">Repositório github</a></li>
+        <li><a href="https://github.com/" target="_blank">Dashboard github</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* Tudo que é id = CSS é #
+   Tudo que é class = em CSS é 
+   Outra coisa, o id dentro do HTML é unico, só posso ter um Id já a Classe é multipla, posso ter varias classes. 
+   Importante: Nunca dar nome as classes de acordo com sua forma (como por exemplo chamar ela de verde, o nmome dela tem sempre que ser relacionado a sua função
+   Podemos também colocar mais de uma classe a um unico elemento*/
+   
+
+body {
+    background-color:#fff7e9d7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0; 
+}
+
+h1 {
+    color: #252b30;
+}
+
+#principal {
+    text-align: center;
+    background-color: #98abbb7a;
+    color: #ca6a32;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+    color: #2b3136;
+}
+.basico {
+    color:#815d30;
+}
+
+.intermediario {
+    color: #8b4c28;
+}
+
+.avançado {
+    color: #472815;
+}
+
+.destaque {
+    color: #daca72b7;
+}

@@ -1,0 +1,56 @@
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endentendo Seletores Personalizados - Pseudo-classes</title> 
+    <!-- As Pseudo classes precisam estar relacionadas a um elemento ou a uma clase, pseudo classe são relacionadas a um estado de um determinado elemento, por exemplo: se ele está ativo, se está marcado, se está ativo etc etc etc  -->
+    <style>
+        div {
+            display:inline-block; /* exibe uma div ao lado da outra, em linha */
+            width: 200px; /* largura do bloco */
+            height: 200px; /* altura do bloco */
+            background-color: lightgray;
+            border: 1px solid rgba(44, 22, 22, 0.767); /* borda do bloco usando um short hand :D  */
+        }
+
+        div#div01 { /* configurações exclusivas do elemento com ID "div01" */
+            background-color: #7E769B;
+        }
+
+        #div02 { /* não é necessário colocar o nome da tag, basta o ID */
+            background-color: #3CA692;
+        }
+
+        div#div03, div#area05 { /* podemos atribuir propriedades a mais de um elemento */
+            background-color:#D9BF8F;
+        }
+
+        div#div04, div#area05 { /* podemos atribuir propriedades a mais de um elemento */
+            background-color:#D99D55;
+        }
+
+        div#div05, div#area05 { /* podemos atribuir propriedades a mais de um elemento */
+            background-color:#401201;
+        }
+        
+        div:hover { /* configurações exclusivas para quando o mouse estiver sobre o elemento */
+            background-color: #861573;
+        }
+
+        /* a "area04" não teve nenhuma configuração especial, logo ficará sendo exibida como uma div comum (cinza) */
+
+    </style>
+    
+</head>
+<body>
+    <div id="div01"></div>
+    <div id="div02"></div>
+    <div id="div03"></div>
+    <div id="div04"></div>
+    <div id="div05"></div>
+</body>
+</html>

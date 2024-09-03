@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>A primeira formatação é a codigo fonte </h2>
+    <p>O comando <code>document.getElementById('teste')</code>é escrito em linguagem JavaScript</p>
+
+    <p>Agora vamos fazer um código identado e escrito de acordo com a escrita de um codigo fonte, para isso colocamos a tag code dentro da tag pre</p>
+    <pre>
+        <code>
+    num = int (input('Digite um número: '))
+    if num % 2 == 0:
+        print(f'O número {num} é par')
+    else:
+        print(f'O número {num} é ímpar')
+        print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Temos também as Citações, abaixo vemos duas formas de citaçõe: </h2>
+
+        <h3>1 - Citações curtas e mais simplifcadas, apenas usando as aspas: </h3>
+    <p>Como diria Albert Einstein: <q>Os computadores são incrivelmente rápidos, precisos e burros; os homens são incrivelmente lentos, imprecisos e brilhantes; juntos, seus poderes ultrapassam os limites da imaginação.</q></p>
+        <h3>2 - Citações completas, que trazem o texto citado separado, trazendo uma quebra de linha e um deslocamento horizontal no texto citado e também podendo usar a o parametro cite dentro da tag blockquote, o cite permite que possamos colar o link de onde foi tirado a informação. </h3>
+    <p>Como diria Albert Einstein: <blockquote cite="https://www.pensador.com/frase/OTg0NDQy/">Os computadores são incrivelmente rápidos, precisos e burros; os homens são incrivelmente lentos, imprecisos e brilhantes; juntos, seus poderes ultrapassam os limites da imaginação.</blockquote></p>
+
+    <h2>Por fim, temos a tag abbr, que é usada para abreviar palavras, e quando passamos o mouse sobre a palavra abreviada(já no site), aparece a palavra completa. </h2>
+
+    <p>HTML é uma linguagem de marcação de hipertexto, que é usada para criar páginas web. <abbr title="HyperText Markup Language">HTML</abbr> é a abreviação de Linguagem de Marcação de Hipertexto.</p>
+    
+    <h3>E agora, apenas para titulo de curiosidade, temos a tag <bdo></bdo> que inverte a escrita da frase </h3>
+</body>
+</html>

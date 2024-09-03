@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entendendo conceitos de modelos de caixas</title>
+
+    <style>
+        h1 {
+            background-color: rgba(118, 109, 177, 0.555);
+            color: #181624;
+            height: 300;
+            width: 300;
+            border-width: 10px;
+            border-style: solid;
+            border-color: rgba(44, 40, 66, 0.767);
+            font-size: 2em;
+            text-align: center;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+             /* Os paddings são espaçamentos internos, ou seja, eles aumentam o tamanho do conteúdo da caixa. */
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            /* Os margins são espaçamentos externos, ou seja, eles aumentam o tamanho da caixa. */
+
+            outline: 05px;
+            outline-style: dashed;
+            outline-color: rgba(94, 208, 216, 0.767);
+            /* O outline é um contorno que fica fora da borda da caixa. Ele não afeta o tamanho da caixa. */
+
+           
+        }
+           
+        h2 {
+            background-color: rgba(118, 109, 177, 0.555);
+            color: #0f0e16;
+            border-width: 03px;
+            border-style: groove;
+            border-color: rgba(44, 40, 66, 0.452);
+            font-size: 1.5em;
+            text-align:justify;
+
+            padding-top: 03px;
+            padding-right: 03px;
+            padding-bottom: 03px;
+            padding-left: 03px;
+             /*da borda para fora */
+
+            margin-top: 03px;
+            margin-right: 03px;
+            margin-bottom: 03px;
+            margin-left: 03px;
+            /*da borda para dentro*/
+        }
+
+        h3 {
+            background-color: rgba(164, 152, 245, 0.315);
+            color: #0f0e16;
+            border-width: 03px;
+        
+            border-color: rgba(44, 40, 66, 0.452);
+            font-size: 1.2em;
+            text-align:justify;
+
+            padding-top: 03px;
+            padding-right: 03px;
+            padding-bottom: 03px;
+            padding-left: 03px;
+
+        
+            margin-left: 03px;
+        }
+        p {
+            margin-left: 03px;
+          }
+            
+        
+        a {
+            background-color: rgba(118, 109, 177, 0.555);
+            color: #181624;
+            border-width: 03px;
+            border-style: solid;
+            border-color: rgba(44, 40, 66, 0.404);
+            font-size: large;
+            text-align: center;
+
+            padding-top: 01px;
+            padding-right: 05px;
+            padding-bottom: 01px;
+            padding-left: 05px;
+
+            outline: 01px;
+            outline-style: dashed;
+            outline-color: rgba(94, 208, 216, 0.767);
+        }
+    </style>
+</head>
+<body>
+    <h1>Modelos de caixas</h1>
+    <p>Aplicavel a linguagem HTML e CSS, é um conjunto que facilita muito na organização do desingn, organizar as partes do site.</p>
+    <p>Quando temos um modelo HTML, tudo que é exibido na tela, é exibido em forma de caixa, e a grande maioria das caixas estão uma dentro da outra como exemplo a boneca matrusca, temos então o famoso aninhamento visto em todas as linguagens</p>
+    <p>Temos dois tipos de caixas, a box-level e a inline-level. </p>
+
+    <h2>Caixa box-level</h2>
+    <p>É uma caixa que ocupa toda a largura da tela, e podemos definir a largura e altura da caixa, e podemos definir a margem, borda e preenchimento da caixa.</p>
+
+    <h3>Exemplos de box-level</h3>
+    <p>Para começar um paragrafo também é um exe,plo de box-inlevO elemento block-level mais conhecido é o "div" e suas variações semânticas modernas da HTML5, como "main", "section", "aside", etc.</p>
+
+    <h2>Caixa inline-level</h2>
+    <p>É uma caixa que ocupa apenas o espaço necessário para exibir o conteúdo, não podemos definir a largura e altura da caixa, e não podemos definir a margem, borda e preenchimento da caixa. Ele não ocupa a linha inteira e também não quebra a linha</p>
+
+    <h3>Exemplos de inline-level</h3>
+    <p>Um primeiro exemplo de inline-level são os <a href="#">links</a>, Os elementos inline-level mais conhecidos são os elementos de texto, como "span", "strong", "em", "a", "img", etc.</p>
+
+    <h2>Agora vamos ver como tudo isso funciona na pratica</h2>
+
+</body>
+</html>

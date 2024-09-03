@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Modelos de caixas -  Endentendo Grounping Tags semânticas </title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #9895aac2;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        main {
+            background-color: rgb(255, 255, 255);
+            justify-content: space-around;
+            padding: 10px;
+            margin: 10px;
+            border: radius 10px 40px 10px 40px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.473);
+            border-radius: 10px 40px 10px 40px;
+        }
+
+        footer {
+            background-color: #0a0a0c;
+            color: #fff;
+            text-align: center;
+            padding: 4px;
+        }   
+
+        footer p {
+            margin: 0px;
+        }
+
+        div#bola {
+            background-color: rgb(48, 108, 119);
+            margin: 100px auto;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        } /* As configuraçoes da div bola servem para criar uma div com formato de bola, para isso, é necessário usar o border-radius. */
+        
+        
+
+        nav {
+            background-color: #47454ec5;
+            color: #fff;
+            text-align: center;
+            padding: 4px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.473);
+              
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 10px;
+
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            background-color: rgba(118, 109, 177, 0.555);
+            color: #181624;
+            height: 300;
+            width: 300;
+            border-width: 10px;
+            border-style: solid;
+            border-color: rgba(44, 40, 66, 0.767);
+            font-size: 2em;
+            text-align: center;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+             /* Os paddings são espaçamentos internos, ou seja, eles aumentam o tamanho do conteúdo da caixa. */
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            /* Os margins são espaçamentos externos, ou seja, eles aumentam o tamanho da caixa. */
+
+            outline: 05px;
+            outline-style: dashed;
+            outline-color: rgba(94, 208, 216, 0.767);
+            /* O outline é um contorno que fica fora da borda da caixa. Ele não afeta o tamanho da caixa. */
+
+        }
+           
+        h3 {
+            background-color: rgba(118, 109, 177, 0.555);
+            color: #0f0e16;
+            border-width: 03px;
+            border-style: groove;
+            border-color: rgba(44, 40, 66, 0.452);
+            font-size: 1.5em;
+            text-align:justify;
+
+            padding-top: 03px;
+            padding-right: 03px;
+            padding-bottom: 03px;
+            padding-left: 03px;
+             /*da borda para fora */
+
+            margin-top: 03px;
+            margin-right: 03px;
+            margin-bottom: 03px;
+            margin-left: 03px;
+            /*da borda para dentro*/
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Entendendo conceitos de modelos de caixas</h1>
+        <nav> <!--nav é a navegação do site(um menu) -->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            
+        </nav>
+    </header>  <!--header é o cabeçalho do site -->
+
+    <main>
+
+        <section>
+            <article>
+                <h3>Modelo de caixa padrão</h3>
+                <p>Os elementos HTML são exibidos como caixas retangulares. Cada caixa tem uma largura e uma altura, e pode ter margens, preenchimento e bordas.</p>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h3>Modelo de caixa em linha</h3>
+                <p>Os elementos HTML são exibidos como caixas retangulares, mas como se fossem palavras em um texto.</p>
+            </article>
+           
+        </section>
+
+        <section>
+            <article>
+                <h3>Modelo de caixa em linha em bloco</h3>
+                <p>Os elementos HTML são exibidos como caixas retangulares, como se fossem parágrafos em um texto.</p>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h3>Modelo de caixa absoluta</h3>
+                <p>Os elementos HTML são exibidos como caixas retangulares, como se fossem absolutos em relação ao seu contêiner.</p>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h3>Modelo de caixa fixo</h3>
+                <p>Os elementos HTML são exibidos como caixas retangulares, como se fossem fixos em relação à janela do navegador.</p>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h3>Modelo de caixa relativo</h3>
+                <p>Os elementos HTML são exibidos como caixas retangulares, como se fossem relativos à sua posição normal.</p>
+            </article>  
+            
+        </section>
+
+        <section>
+            <article>
+                <h3>Modelo de caixa estático</h3>
+                <p>Os elementos HTML são exibidos como caixas retangulares, como se fossem estáticos em relação ao seu contêiner.</p>   
+            </article>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por: Zaira Cicuto Gomes</p>
+    </footer>
+
+    <div id="bola"></div>
+    
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+
+    <h2>1 - Listas ordenadas</h2>
+    <p>A HTML chama de ordered lists todas aquelas listas onde a ordem dos itens é algo
+        muito importante. Um passo-a-passo para criar um bolo, uma lista de aprovados no
+        vestibular e uma lista com os carros mais caros do mundo são exemplos de listas
+        ordenadas.</p>
+
+    <p>Para criar uma ordered list, vamos usar a tag ol para delimitar a lista e li (list item) para identificar cada item da lista. Exemplo:</p>
+    <ol>
+        <li>Acordar 1</li>
+        <li>Trocar Maria Luz</li>
+        <li>Tomar café 2</li>
+        <li>lavar o rosto 3</li>
+        <li>Reunião 4</li>
+    </ol>
+    <h3>Observação: A tag "ol" possui o parâmetro type, onde podemos configurar o tipo de marcador da lista, como numérico, alfabético, romano, etc. O valor padrão é numérico, abaixo exemplifico: </h2>
+
+    <p>Com o valor "1" Cria listas numeradas. Ex: 1, 2, 3, 4, </p>
+    <ol type="1">
+        <li>Acordar 1</li>
+        <li>Trocar Maria Luz</li>
+        <li>Tomar café 2</li>
+        <li>lavar o rosto 3</li>
+        <li>Reunião 4</li>
+    </ol>
+
+    <p>Com o valor "A" Cria listas alfabéticas em maiúsculas. Ex: A, B, C, D </p>
+    <ol type="A">
+        <li>Acordar 1</li>
+        <li>Trocar Maria Luz</li>
+        <li>Tomar café 2</li>
+        <li>lavar o rosto 3</li>
+        <li>Reunião 4</li>
+    </ol>
+
+    <p>Com o valor "a" Cria listas alfabéticas em minúsculas. Ex: a, b, c, d </p>
+    <ol type="a">
+        <li>Acordar 1</li>
+        <li>Trocar Maria Luz</li>
+        <li>Tomar café 2</li>
+        <li>lavar o rosto 3</li>
+        <li>Reunião 4</li>
+    </ol>
+
+    <p>Com o valor "I" Cria listas romanas em maiúsculas. Ex: I, II, III, IV </p>
+    <ol type="I">
+        <li>Acordar 1</li>
+        <li>Trocar Maria Luz</li>
+        <li>Tomar café 2</li>
+        <li>lavar o rosto 3</li>
+        <li>Reunião 4</li>
+    </ol>
+
+    <p>Com o valor "i" Cria listas com algarismos romanos em minúsculas. Ex: i, ii, iii, iv </p>
+    <ol type="i">
+        <li>Acordar 1</li>
+        <li>Trocar Maria Luz</li>
+        <li>Tomar café 2</li>
+        <li>lavar o rosto 3</li>
+        <li>Reunião 4</li>
+    </ol>
+    </h2>
+
+    <h2>2 - Listas Não ordenadas</h2>
+    <p>A HTML chama de unordered lists todas aquelas listas onde a ordem dos itens não é
+        importante. Uma lista de compras, uma lista de tarefas a fazer e uma lista de
+        presentes são exemplos de listas não ordenadas.</p>
+        <p> E Para criar uma unordered list, vamos usar a tag "ul" para delimitar a lista e a tag "li" para criar cada um dos seus itens internos.</p>
+
+    <ul>
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Macarrão</li>
+        <li>Suco</li>
+    </ul>
+
+    <p>Vemos que o marcador padrão para as "ul" é a bolinha, mas assim como nas listas ordenas dentro das "ol", aqui também podemos configurar o tipo de marcador da nossa lista, abaixo vemos todas as formas, que são apenas 3 kkkkkk </p>
+
+    <p>Com o valor "disc" Cria listas com marcadores circulares. </p>
+    <ul type="disc">
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Macarrão</li>
+        <li>Suco</li>   
+    </ul>
+
+    <p>Com o valor "circle" Cria listas com marcadores circulares vazados. </p>
+    <ul type="circle">
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Macarrão</li>
+        <li>Suco</li>
+    </ul>
+
+    <p>Com o valor "square" Cria listas com marcadores quadrados. </p>  
+    <ul type="square">
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Macarrão</li>
+        <li>Suco</li>   
+    </ul>
+
+    <h2>3 - Juntando listas: Podemos também criar listas mistas, configurando listas dentro de outras listas. Veja
+        o exemplo a seguir:</h2>
+
+        <ol>
+            <li>Antigas</li>
+            <ol type="a">
+                <li>Antigas</li>
+                <li>Antigas</li>
+                <li>Antigas</li>
+            
+            </ol>
+            <li>Novas</li>
+            <ol type="a" start="5">
+                <li>Novas</li>
+                <li>Novas</li>
+                <li>Novas</li>
+            </ol>
+        </ol>
+    <h3>Agora a mesma lista só que não ordenada</h3>
+    <ul>
+        <li>Antigas</li>
+        <ul type="circle">
+            <li>Antigas</li>
+            <li>Antigas</li>
+            <li>Antigas</li>
+        
+        </ul>
+        <li>Novas</li>
+        <ul type="circle">
+            <li>Novas</li>
+            <li>Novas</li>
+            <li>Novas</li>
+        </ul>
+
+<h2>4 - Listas de definição:</h2>
+<p>As listas de definição são como por exemplo um dicionário, temos os termos e as suas descrições. É uma lista sem demarcadores, mas bem útil em alguns casos.</p>
+<p>Toda lista de definições está dentro de uma tag "dl" "/dl" (definition list) Cada
+    termo é um "dt" (definition term) e cada descrição é um "dd" (definition description).
+    Assim como os itens da lista, essas duas últimas tags possuem fechamento opcional,
+    segundo a referência oficial da HTML5.
+   <p> Vamos ver um exemplo simples que cria uma lista com três definições que já
+    conhecemos bem aqui pelo curso.</p></p>
+</h2>1
+
+<dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language</dd>
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets</dd>
+    <dt>JS</dt>
+    <dd>JavaScript</dd>
+</dl>
+<h4>IMPORTANTE Cada navegador pode mostrar um resultado ligeiramente diferente para listas de definição, mas o que mais importa é o significado desse tipo de listagem, pois ele relaciona diretamente os pares Termo + Descrição e isso nos ajuda bastante com mecanismos de busca.</h4>
+</body>
+</html>

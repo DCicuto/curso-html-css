@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de houver</title> <!-- Houver é uma Pseudo classes   -->
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+        }
+
+        div > p{
+            display: none; /*Aqui estamos escondendo o texto que está dentro da div */
+        }
+        /*Aqui o simbolo > tem a representaçao de filho de uma div, nesse exemplo, o que estamos fazendo com os paragrafos filhos de div? estamos escondendo.*/
+
+        div:hover > p{
+            display: block;
+            color: rgb(10, 3, 2);
+            background-color: hotpink;
+            width: 400px;
+        }
+        /*Aqui quando o mouse passar por cima do elemento escondido, o texto será exibido */
+
+        div:houver{
+            color: tomato;
+        }   
+    </style>
+</head>
+<body>
+    <h1>Exemplo de houver</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div> 
+        Passe o mouse aqui
+        <p>Texto escondido</p>
+    </div>
+</body>
+</html>

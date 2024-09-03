@@ -1,0 +1,57 @@
+Curiosidades de Tecnologia
+
+Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar
+
+[MENU]
+Home
+Notícias
+Curiosidades
+Fale Conosco
+
+O que é um pato de borracha (rubber duck) e para que serve?
+
+Na engenharia de software, a depuração com pato de borracha é um método de depuração de código. O nome é uma referência a uma história do livro O Programador Pragmático em que um programador explica seu problema para um pato de borracha, descrevendo linha a linha o código que já foi escrito.[1] Muitos outros termos existem para essa técnica, muitas vezes envolvendo diferentes objetos inanimados ou até animais de estimação, como um cachorro ou um gato.
+
+Muitos programadores já tiveram a experiência de explicar um problema de programação para outra pessoa, possivelmente até mesmo para alguém que não saiba nada sobre programação e, em seguida, encontrar com a solução no processo de explicar o problema. Ao descrever o que o código deveria fazer e observar o que ele efetivamente faz, qualquer diferença entre esses processos fica mais visível.[2] De modo geral, o ensino de um assunto força seu entendimento a partir de diferentes perspectivas e auxilia sua compreensão mais profunda.[3] Usando um objeto inanimado, o programador pode tentar fazer isso sem ter de interromper qualquer outra pessoa.
+
+[FOTO]
+
+A técnica tenta eliminar a dissonância cognitiva entre a elaboração mental de um modelo de software e a solução para um problema
+
+
+[FOTO]
+
+“Às vezes você está com dificuldades no código, está dando erro aí você pega um dos patos e começa a explicar pro pato o que você está querendo fazer, como se estivesse revisando o código. Daí você explicando para o pato é como se você estivesse explicando para você mesmo. Você vai debugando o código, linha por linha”, explicou o programador e estudante de Engenharia de Software do iCEV, Luis Belizário, que utiliza assiduamente a técnica.
+
+[FOTO]
+
+Por que essa técnica é tão eficiente?
+
+Existe toda uma psicologia de como isso funciona, mas basicamente quando você fala em voz alta o seu cérebro consegue processar melhor os detalhes e, com isso, sua atenção a detalhes ou erros fica mais aguçada, consequentemente você acha os problemas mais rapidamente.
+
+Quando você está assumindo que seu pato de borracha não sabe nada sobre o assunto, você tem que explicar mais detalhadamente o que você estava pensando nessas linhas específicas de código através de sua cabeça. Você é forçado, enquanto ajuda outra “pessoa” a entender o seu problema, a prestar muita atenção a tudo o que você estava apenas tomando como garantido.
+
+[VIDEO]
+ 
+[EXTRA] Quer aprender mais? 
+
+Veja alguns passos importantes:
+
+1 – Explique seu código e seus objetivos. Não se preocupe com detalhes, apenas defina o contexto para o seu pato.
+
+2 – Linha por linha, explique qual é o fluxo de toda a função ou método que não está funcionando. Não pule detalhes, os patos estão ali para escutar você.
+
+3 – Se seu amigo pato ainda não viu o bug, não deixe de explicar todos os estados intermediários e transições em detalhes.
+
+4 – Pronto, agora a solução parece muito óbvia, a razão pela qual a “depuração de pato de borracha” é tão amada.
+
+Durante esse processo, há uma grande chance de encontrar o seu problema. Muitas vezes é apenas um pequeno erro de digitação ou de compreensão. Se a solução não aparecer, você pode pedir ajuda a algum colega ou especialista daquele tipo de tarefa.
+
+A maioria de nós pensa muito mais rápido do que falamos. Então, especialmente se você está explicando verbalmente o que está acontecendo com esse outro objeto, é provável que você seja um pouco mais cuidadoso e preciso em virtude de ter que dizer isso em voz alta. Assim, você desacelera o pensamento e é mais exigente do que quando você está digitando código.
+
+O mais interessante é que essa técnica, muito utilizada pelos engenheiros de software, pode ser replicada em todas as áreas! Adote um patinho de borracha você também
+[/EXTRA]
+
+Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre um patinho emborrachado e simpático.
+         
+Site criado por Daiane Cicuto para fins didaticos.

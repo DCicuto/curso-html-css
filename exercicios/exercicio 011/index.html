@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br
+">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Tente abrir esse site em varios disposivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+   <h1>Reproduzindo áudios</h1>
+<p>Aqui vamos aprender a reproduzir áudios em HTML4</p>
+<audio controls>
+    <source src="To the Sun and Back - TrackTribe.mp3" type="audio/mpeg">
+    <p>Seu navegador não suporta o elemento audio. <a href="To the Sun and Back - TrackTribe.mp3">Clique aqui para baixar o arquivo</a></p>
+</audio>
+
+<h1>Reproduzindo vídeos</h1>
+<p>Aqui vamos aprender a reproduzir vídeos em HTML4</p>
+
+<h1>Inserindo vídeos hospedados localmente</h1>
+<p>Esse vídeo está hospedado no meu servidor</p>
+
+<video width="600" controls autoplay loop>
+    <source src="midia/videocafe-720p30.webm" type="video/webm">
+    <p>Seu navegador não suporta o elemento video. <a href="midia/videocafe-720p30.webm">Clique aqui para baixar o arquivo</a></p>
+</video>
+
+<video width="600" controls autoplay loop>
+    <source src="midia/videocafe2-720p30.webm" type="video/webm">
+    <p>Seu navegador não suporta o elemento video. <a href="midia/videocafe2-720p30.webm">Clique aqui para baixar o arquivo</a></p>
+</video>
+
+
+<h1>Incorporando vídeos do YouTube</h1>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/idVfrmyCSqM" title="Coffee Animation in Blender #shorts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<h1>Fim</h1>
+
+
+
+</body>
+</html>
