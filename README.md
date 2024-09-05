@@ -1,2 +1,2 @@
-# curso-html-css
- Curso de HTML e CSS
+# HTML e CSS
+ Exercicios e desafios realizados durante o curso de HTMA e CSS
